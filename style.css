@@ -131,9 +131,66 @@ body {
     background: #2727270d;
     padding: 30px 50px 30px 60px;
 }
-.service-item img{
+
+.service-item img {
     margin-left: 80px;
 }
-#service-img{
+
+.service-item-des {
+    color: #272727cc;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#service-img {
     margin-left: 23px;
+}
+
+/*hot deals */
+.hot-deals {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: #e554730d;
+    max-height: 300px;
+    background-image: url('./asset/pngwing\ 8.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 300px;
+
+
+
+}
+
+.hot-deals-item {
+    max-width: 50%;
+    margin-left: 200px;
+
+}
+
+#hot-deals-btn {
+    margin-top: 20px;
+    margin-left: 280px;
+
+}
+
+.hot-deals-item h1 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hot-deals-item p {
+    color: #27272799;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#differtent-color-text {
+    color: #E55473;
 }
