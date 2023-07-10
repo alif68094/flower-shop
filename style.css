@@ -258,10 +258,41 @@ body {
     font-size: 12px;
     font-weight: 400;
 }
-.deals-email{
+
+.deals-email {
     width: 350px;
     padding: 10px;
     margin-bottom: 50px;
     margin-left: 230px;
     margin-top: 10px;
+}
+
+.footer-heading {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-des {
+    color: #ffffffe6;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all-right-reserved{
+    color: #ffffff66;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 505px;
+}
+
+footer {
+    background-color: black;
+    height: 300px;
 }
