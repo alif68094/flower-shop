@@ -76,14 +76,16 @@ body {
     max-width: 40%;
     margin: 0 auto;
 }
-.featured-flower-container{
+
+.featured-flower-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 60px;
-    
+
 }
-.featured-flower-content{
+
+.featured-flower-content {
     max-width: 30%;
     max-height: 100%;
     border-radius: 150px 150px 0px 0px;
@@ -93,23 +95,45 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
-    
+
 }
-.featured-flower-content img{
+
+.featured-flower-content img {
     padding: 0px 0px 0px 0px;
     width: 70%;
     height: 70%;
 }
-#ffthree{
-background: #e3ebdb;
+
+#ffthree {
+    background: #e3ebdb;
 }
-#fftwo{
+
+#fftwo {
     background: #d9eff1;
 
 }
-.featured-flower-name{
+
+.featured-flower-name {
     display: flex;
     margin: 20px 0px;
     text-decoration: underline;
     justify-content: space-around;
+}
+
+/*service related style */
+.service {
+    display: flex;
+    max-width: 70%;
+    margin: 60px auto;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: #2727270d;
+    padding: 30px 50px 30px 60px;
+}
+.service-item img{
+    margin-left: 80px;
+}
+#service-img{
+    margin-left: 23px;
 }
