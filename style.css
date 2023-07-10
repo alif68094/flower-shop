@@ -221,8 +221,9 @@ body {
 .insta-content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    max-width: 100%;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin-left: 131px;
 }
 
 .insta-item {
